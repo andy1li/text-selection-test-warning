@@ -1,0 +1,22 @@
+{
+  "name": "text-selection-test-warning",
+  "private": true,
+  "version": "0.0.0",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview",
+    "test": "vitest"
+  },
+  "devDependencies": {
+    "@tiptap/core": "latest",
+    "@tiptap/extension-document": "latest",
+    "@tiptap/extension-history": "latest",
+    "@tiptap/extension-paragraph": "latest",
+    "@tiptap/extension-text": "latest",
+    "happy-dom": "latest",
+    "typescript": "latest",
+    "vite": "latest",
+    "vitest": "latest"
+  }
+}
