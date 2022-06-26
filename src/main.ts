@@ -1,8 +1,6 @@
 import './style.css'
+import { parseTiptapHtml } from './tiptap'
 
 const app = document.querySelector<HTMLDivElement>('#app')!
 
-app.innerHTML = `
-  <h1>Hello Vite!</h1>
-  <a href="https://vitejs.dev/guide/features.html" target="_blank">Documentation</a>
-`
+app.innerHTML = JSON.stringify(parseTiptapHtml('<h1>Hello tiptap!</h1>'))
